@@ -5,9 +5,10 @@ from groq import Groq
 # Modelli stabili per Gennaio 2026
 # Il primo è il nuovo standard, il secondo è la versione stabile 3.2
 MODELS_TO_TRY = [
-    "meta-llama/llama-4-scout-17b-16e-instruct",
-    "llama-3.2-11b-vision",
-    "llama-3.2-90b-vision"
+    "meta-llama/llama-4-scout-17b-16e-instruct",   # Flagship Vision 2026
+    "meta-llama/llama-4-maverick-17b-128e-instruct", # Alta risoluzione
+    "llama-3.2-11b-vision",                         # Stabile Llama 3.2
+    "llama-3.2-90b-vision"                          # Stabile 90B
 ]
 
 def get_client():
