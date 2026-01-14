@@ -1,0 +1,6 @@
+google-generativeai
+groq
+Pillow
+fastapi
+uvicorn
+python-dotenv
